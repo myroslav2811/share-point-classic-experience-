@@ -1,0 +1,29 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+<link rel="stylesheet" href="../SiteAssets/myroh-exam-classic/main.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<script type="text/javascript" src="../SiteAssets/myroh-exam-classic/index.js"></script>
+<div id="content"></div>
+<div id="ex1" class="modal">
+    <p class="formItem">
+        <input type="text" id="orderTitle" placeholder="Title">
+    </p>
+    <p class="formItem">
+        <input type="text" id="orderDescription" placeholder="Description">
+    </p>
+    <p class="formItem">
+        <select id="orderCategory">
+            <option value="Clothing">Clothing</option>
+            <option value="Accessories">Accessories</option>
+            <option value="Appliances">Appliances</option>
+        </select>
+    </p>
+    <p class="formItem">
+        <label for="orderInStock">In stock</label>
+        <input id="orderInStock" type="checkbox">
+    </p>
+    <a href="#" rel="modal:close" class="button">Close</a>
+    <a href="#" rel="modal:close" class="button" id="addItem">Add item</a>
+</div>
+<p><a href="#ex1" rel="modal:open" class="button">Add new order</a></p>

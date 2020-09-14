@@ -1,0 +1,45 @@
+.orderCard {
+    padding: 20px;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.cardItem {
+    flex-basis: 200px;
+}
+
+.cardHeader {
+    border-bottom-width: 2px;
+}
+
+.itemHeader {
+    font-weight: bold;
+}
+
+#addItem {
+    margin: 10px;
+    margin-left: auto;
+}
+
+.button {
+    padding: 10px;
+    color: #fff;
+    background-color: lightseagreen;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.formItem input[type="text"], .formItem select {
+    width: 100%;
+    font-size: 17px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.formItem label {
+    font-size: 17px;
+}

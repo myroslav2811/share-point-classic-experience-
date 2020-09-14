@@ -1,0 +1,15 @@
+{
+    "sourceDirectory": "src",
+    "sharePointSiteUrl": "https://getsmartua.sharepoint.com/sites/SMARTacademy51JuniorFront_myroh",
+    "workspaceRoot": "c:\\Users\\myros\\Desktop\\myroh-exam-classic",
+    "publishWorkspaceOptions": {
+        "destinationFolder": "/",
+        "globPattern": "c:\\Users\\myros\\Desktop\\myroh-exam-classic\\src\\**\\*.*",
+        "localRoot": "c:\\Users\\myros\\Desktop\\myroh-exam-classic\\src"
+    },
+    "publishingScope": "SaveOnly",
+    "authenticationType": "Digest",
+    "remoteFolders": [
+        "/SiteAssets/**/*.*"
+    ]
+}
